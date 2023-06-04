@@ -16,7 +16,7 @@ nums=${#dirs[@]}
 if [ ${nums} -lt 2 ]; then
     cd ${dirs[1]}
 else
-  for i in $(seq 1 ${nums})
+    for i in $(seq 1 ${nums})
     do
         echo "$i: ${dirs[$i]}"
     done
